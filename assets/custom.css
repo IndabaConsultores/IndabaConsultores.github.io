@@ -1,0 +1,304 @@
+.menuo-right #Top_bar .menu_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.lks-next img {
+	width:60px;
+	}
+#Top_bar .menu li ul {
+    margin: -30px 0 0 0;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+}
+ #Top_bar.is-sticky .menu li ul {
+    margin:-4px 0 0 0;
+}
+#Top_bar .menu li ul li a {
+    padding: 5px 5px 5px 10px;
+	background:#fff;
+}
+#Top_bar .menu li.submenu.hover a span {
+	color:#2097fc !important;
+	}
+
+/**** PAGES ***/
+
+h1 {
+    font-size: 75px;
+    line-height: 75px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    font-family: "Poppins", Arial, Tahoma, sans-serif;
+    color: #2097fc;
+}
+h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+    letter-spacing: 0px;
+
+}
+h3 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    letter-spacing: 0px;
+
+}
+
+.bloque-color, .bloque-color p, .bloque-color h2, .bloque-color h3, .bloque-color h4 {
+	color:#fff
+	}
+
+
+#Footer {
+    border-top: 0;
+	background-color: #f3f3f3;
+}
+
+.mcb-section-title {
+	padding-top:150px;
+	padding-bottom:40px
+	}
+	.mcb-section-title-id {	
+		padding-bottom:0
+		}
+.flv_section {
+    padding-top: 60px;
+    padding-bottom: 140px;
+    background-color: #082233;
+}
+
+
+.box {
+	/*background: red;
+    border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+    
+}
+.box .column_image {
+	margin-bottom: 0.5em;
+	}
+	
+.box h3 {
+    font-size: 22px;
+    line-height: 28px;
+    margin: 0.3em 0 1em 0;
+}
+
+.box-big h3 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 0.7em;
+}
+
+.boxEmpresa {
+	 padding: 100px 11% 140px; 
+	 background-repeat: no-repeat; 
+	 background-size:cover; 
+	 background-position: center center; 
+	 height: 500px;
+	 width:100%
+	}
+
+.boxInterior {
+	 background-size:cover; 
+	 background-repeat:no-repeat; 
+	 background-position:left top; 
+	 padding:120px 40px 40px;
+	 display:block
+	}
+/*.boxInterior h4 {
+	 font-weight:900;
+	 color:#2097fc;
+	 font-size:32px;
+}*/
+
+.boxInterior:hover {
+	 text-decoration:none !important;
+	 color:#ff6839 !important;
+}
+.boxInterior:hover h4, .boxInterior:hover h6  {
+	 color:#ff6839;
+}
+	
+
+
+
+#contactWrapper input[type="date"], 
+#contactWrapper input[type="email"], 
+#contactWrapper input[type="number"], 
+#contactWrapper input[type="password"],
+#contactWrapper input[type="search"], 
+#contactWrapper input[type="tel"], 
+#contactWrapper input[type="text"], 
+#contactWrapper input[type="url"], 
+#contactWrapper select, 
+#contactWrapper textarea {
+	background:#fff;
+    border: 1px solid #2097fc !important;
+}
+
+.bloqueCabeceraPagina {
+	background-image:url('../images/indaba/background-ico-azul.png'); 
+	background-repeat:no-repeat; 
+	background-position:left top; 
+	padding:120px 40px 40px;
+	}
+.bloqueCabeceraPagina h4 {	
+	font-weight: 400; font-style: italic;
+}
+
+.marginLeft {
+	margin-left:50px;
+}
+
+/*** 
+PORTADA
+****/
+
+.mcb-inonvacion {
+	/*background-color: #f3f3f3;
+	padding:2em 0;*/
+	margin-bottom:3.5em;
+	}
+
+
+/*** INNOVACION *****/
+
+.projectID {
+	padding: 100px 11% 140px; 
+	background-repeat: no-repeat; 
+	background-size:cover; 
+	background-position: center center; 
+	height: 500px;width:100%
+	}
+
+.bloqueInnovacion {
+	 background-image:url('../images/indaba/innovation-background.png');
+	 background-size:cover; 
+	 background-repeat:no-repeat; 
+	 background-position:left top; 
+	 padding:110px 30px 40px;
+	 display:block
+}
+.bloqueInnovacion h4 {
+	 font-weight:900;
+	 color:#2097fc;
+	 font-size:32px;
+}
+
+.bloqueInnovacion:hover {
+	 text-decoration:none !important;
+	 color:#ff6839 !important;
+}
+.bloqueInnovacion:hover h4, .bloqueInnovacion:hover h6 {
+	 color:#ff6839;
+}
+
+
+/*****
+************* RESPONSIVE *****************/
+
+@media only screen and (max-width: 767px) {
+	
+body, h4, p {
+    font-size: 16px;
+    line-height: 22px;
+}
+	
+.mobile-header-mini #Top_bar a.responsive-menu-toggle {
+    top: 30px!important;
+    left: auto;
+    right: 67px;
+    margin-top: -17px;
+}
+.lks-next {
+    position: absolute;
+    right: 7px;
+    top: 5px;
+    width: 50px;
+    height: 50px;
+}
+.lks-next img {
+	width:50px;
+	}
+	
+#Top_bar .menu li ul {
+    margin:0;
+}
+
+.mcb-section-title {
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+h1 {
+    font-size: 60px;
+    line-height: 60px;
+}
+h2 {
+    font-size: 32px;
+    line-height: 32px;
+}
+h2.encabezadoH2 {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: bold;
+    color:#2097fc;
+}
+
+.marginLeft {
+	margin-left:0;
+}
+.projectID,.boxEmpresa  {
+	margin-bottom:3em !important;
+	}
+.box {
+    margin-bottom: 3em;
+}
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)  {
+	
+#Top_bar .logo {
+    float: left;
+    margin: 0;
+}
+#Top_bar #logo, .header-fixed #Top_bar #logo, .header-plain #Top_bar #logo, .header-transparent #Top_bar #logo {
+    height: 60px;
+    line-height: 60px;
+    padding: 5px 0;
+}
+
+.mobile-header-mini #Top_bar a.responsive-menu-toggle {
+    top: 30px!important;
+    left: auto;
+    right: 65px;
+    margin-top: -10px;
+}
+.lks-next {
+    position: absolute;
+    right: 0;
+    top: 12px;
+    width: 50px;
+    height: 50px;
+}
+.lks-next img {
+	width:50px;
+	}
+	
+#Top_bar .menu li ul {
+    margin:0;
+}
+
+.mcb-section-title {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+
+}
+
